@@ -1,0 +1,6 @@
+G:\Code\tp-final\FarmaciaData\bin\Debug\FarmaciaData.dll
+G:\Code\tp-final\FarmaciaData\bin\Debug\FarmaciaData.pdb
+G:\Code\tp-final\FarmaciaData\obj\Debug\FarmaciaData.csproj.AssemblyReference.cache
+G:\Code\tp-final\FarmaciaData\obj\Debug\FarmaciaData.csproj.CoreCompileInputs.cache
+G:\Code\tp-final\FarmaciaData\obj\Debug\FarmaciaData.dll
+G:\Code\tp-final\FarmaciaData\obj\Debug\FarmaciaData.pdb

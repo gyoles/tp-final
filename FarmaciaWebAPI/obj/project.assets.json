@@ -104,6 +104,15 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FarmaciaData/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/FarmaciaData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FarmaciaData.dll": {}
+        }
       }
     }
   },
@@ -244,10 +253,16 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "FarmaciaData/1.0.0": {
+      "type": "project",
+      "path": "../FarmaciaData/FarmaciaData.csproj",
+      "msbuildProject": "../FarmaciaData/FarmaciaData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FarmaciaData >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -278,7 +293,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj": {
+              "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -319,7 +338,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

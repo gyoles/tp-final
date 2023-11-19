@@ -31,3 +31,4 @@ G:\Code\tp-final\FarmaciaWebAPI\obj\Debug\net5.0\refint\FarmaciaWebAPI.dll
 G:\Code\tp-final\FarmaciaWebAPI\obj\Debug\net5.0\FarmaciaWebAPI.pdb
 G:\Code\tp-final\FarmaciaWebAPI\obj\Debug\net5.0\FarmaciaWebAPI.genruntimeconfig.cache
 G:\Code\tp-final\FarmaciaWebAPI\obj\Debug\net5.0\ref\FarmaciaWebAPI.dll
+G:\Code\tp-final\FarmaciaWebAPI\obj\Debug\net5.0\FarmaciaWebAPI.sourcelink.json

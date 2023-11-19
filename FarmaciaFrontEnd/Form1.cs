@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace FarmaciaFrontEnd
 {
-    public partial class Form1 : Form
+    public partial class FrmPrincipal : Form
     {
-        public Form1()
+        public FrmPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmArticulos FrmAltaArt = new FrmArticulos();
+            FrmAltaArt.ShowDialog();
+        }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmConsultarArt().ShowDialog();
         }
     }
 }

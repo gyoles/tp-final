@@ -4,6 +4,21 @@
     "G:\\Code\\tp-final\\FarmaciaWebAPI\\FarmaciaWebAPI.csproj": {}
   },
   "projects": {
+    "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj": {
+      "restore": {
+        "projectUniqueName": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj",
+        "projectName": "FarmaciaData",
+        "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "G:\\Code\\tp-final\\FarmaciaWebAPI\\FarmaciaWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj": {
+                "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -68,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

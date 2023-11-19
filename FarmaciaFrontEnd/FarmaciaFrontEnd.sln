@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciaFrontEnd", "FarmaciaFrontEnd.csproj", "{AE7049BA-D469-4BD3-89F2-EACA10E8ADD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciaWebAPI", "..\FarmaciaWebAPI\FarmaciaWebAPI.csproj", "{389EE5F7-4F9E-4219-BBEE-EB1CAAC6A3BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmaciaWebAPI", "..\FarmaciaWebAPI\FarmaciaWebAPI.csproj", "{389EE5F7-4F9E-4219-BBEE-EB1CAAC6A3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciaData", "..\FarmaciaData\FarmaciaData.csproj", "{C887F711-28CE-4B08-B667-B1D36A71371B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{389EE5F7-4F9E-4219-BBEE-EB1CAAC6A3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{389EE5F7-4F9E-4219-BBEE-EB1CAAC6A3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{389EE5F7-4F9E-4219-BBEE-EB1CAAC6A3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C887F711-28CE-4B08-B667-B1D36A71371B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C887F711-28CE-4B08-B667-B1D36A71371B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C887F711-28CE-4B08-B667-B1D36A71371B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C887F711-28CE-4B08-B667-B1D36A71371B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,17 @@
+G:\Code\tp-final\FarmaciaFrontEnd\bin\Debug\FarmaciaFrontEnd.exe.config
+G:\Code\tp-final\FarmaciaFrontEnd\bin\Debug\FarmaciaFrontEnd.exe
+G:\Code\tp-final\FarmaciaFrontEnd\bin\Debug\FarmaciaFrontEnd.pdb
+G:\Code\tp-final\FarmaciaFrontEnd\bin\Debug\FarmaciaData.dll
+G:\Code\tp-final\FarmaciaFrontEnd\bin\Debug\Newtonsoft.Json.dll
+G:\Code\tp-final\FarmaciaFrontEnd\bin\Debug\FarmaciaData.pdb
+G:\Code\tp-final\FarmaciaFrontEnd\bin\Debug\Newtonsoft.Json.xml
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.csproj.AssemblyReference.cache
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.FrmPrincipal.resources
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.FrmArticulos.resources
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.FrmConsultarArt.resources
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.Properties.Resources.resources
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.csproj.GenerateResource.cache
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.csproj.CoreCompileInputs.cache
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.csproj.CopyComplete
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.exe
+G:\Code\tp-final\FarmaciaFrontEnd\obj\Debug\FarmaciaFrontEnd.pdb
