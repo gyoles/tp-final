@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciaFrontEnd", "Farmaci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmaciaWebAPI", "..\FarmaciaWebAPI\FarmaciaWebAPI.csproj", "{389EE5F7-4F9E-4219-BBEE-EB1CAAC6A3BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciaData", "..\FarmaciaData\FarmaciaData.csproj", "{C887F711-28CE-4B08-B667-B1D36A71371B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciaDataAPI", "..\FarmaciaData\FarmaciaDataAPI.csproj", "{C887F711-28CE-4B08-B667-B1D36A71371B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

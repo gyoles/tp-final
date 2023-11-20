@@ -42,14 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Datos\HelperDB.cs" />
-    <Compile Include="Datos\Implementacion\DAOArticulo.cs" />
-    <Compile Include="Datos\Interfaz\IDAOArticulo.cs" />
-    <Compile Include="Dominio\Articulo.cs" />
-    <Compile Include="Dominio\Marca.cs" />
-    <Compile Include="Dominio\Rubro.cs" />
-    <Compile Include="Fachada\DataImp.cs" />
-    <Compile Include="Fachada\IDataApi.cs" />
+    <Compile Include="DAOs\HelperDB.cs" />
+    <Compile Include="DAOs\Implementacion\DAOArticulo.cs" />
+    <Compile Include="DAOs\Interfaz\IDAOArticulo.cs" />
+    <Compile Include="DAOs\Parametro.cs" />
+    <Compile Include="Domain\Articulo.cs" />
+    <Compile Include="Domain\Marca.cs" />
+    <Compile Include="Domain\Rubro.cs" />
+    <Compile Include="Services\DataImp.cs" />
+    <Compile Include="Services\IDataImp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

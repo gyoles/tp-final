@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FarmaciaData.Datos.Interfaz
 {
-    internal class IDAOArticulo
+    public interface IDAOArticulo
     {
         List<Articulo> ObtenerArticulos();
         bool Crear(Articulo articulo);

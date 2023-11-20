@@ -6,10 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FarmaciaData.Dominio;
+using FarmaciaData.Datos.Interfaz;
 
 namespace FarmaciaData.Datos.Implementacion
 {
-    public class DAOArticulo
+    public class DAOArticulo : IDAOArticulo
     {
         //public int ObtenerProximoNro()
         //{
@@ -17,25 +18,33 @@ namespace FarmaciaData.Datos.Implementacion
         //    return HelperDB.ObtenerInstancia().ConsultaEscalarSQL(sp, "@next");
         //}
 
-        public List<Articulo> ObtenerProductos()
+        public List<Articulo> ObtenerArticulos()
         {
             List<Articulo> lst = new List<Articulo>();
 
-            string sp = "SP_CONSULTAR_PRODUCTOS";
+            string sp = "SP_CONSULTAR_ARTICULOS";
             DataTable t = HelperDB.ObtenerInstancia().ConsultaSQL(sp, null);
 
             foreach (DataRow dr in t.Rows)
             {
                 //Mapear un registro a un objeto del modelo de dominio
-                int nro = int.Parse(dr["id_producto"].ToString());
-                string nombre = dr["n_producto"].ToString();
-                double precio = double.Parse(dr["precio"].ToString());
-                bool activo = dr["activo"].ToString().Equals("S");
+                int id = int.Parse(dr["id_articulo"].ToString());
+                string descripcion = dr["descripcion"].ToString();
+                string marca = dr["marca_nombre"].ToString();
+                string rubro = dr["rubro_nombre"].ToString();
+                int precio = int.Parse(dr["precio"]).ToString();
+                int cantidad = (int)(dr["cantidad"]).ToString();
+                bool medicinal = dr["precio"].ToString();
+                int precio = int.Parse(dr["precio"].ToString();
 
-                Articulo aux = new Articulo(nro, nombre, precio);
-                aux.Activo = activo;
+                //int nro = int.Parse(dr["id_producto"].ToString());
+                //string nombre = dr["n_producto"].ToString();
+                //double precio = double.Parse(dr["precio"].ToString());
+                //bool activo = dr["activo"].ToString().Equals("S");
+
+                Articulo aux = new Articulo(id, descripcion, marca, rubro, precio, cantidad, medicinal, ventaLibre);
+                //aux.Activo = activo;
                 lst.Add(aux);
-
             }
 
             return lst;

@@ -1,6 +1,6 @@
 ﻿namespace FarmaciaFrontEnd
 {
-    partial class FrmArticulos
+    partial class FrmEditArticulos
     {
         /// <summary>
         /// Required designer variable.

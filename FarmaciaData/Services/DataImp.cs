@@ -1,4 +1,5 @@
-﻿using FarmaciaData.Dominio;
+﻿using FarmaciaData.Datos.Interfaz;
+using FarmaciaData.Dominio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,18 +8,18 @@ using System.Threading.Tasks;
 
 namespace FarmaciaData.Fachada
 {
-    public class DataApiImp : IDataApi
+    public class DataApiImp : IDataImp
     {
-        private IDaoPresupuesto dao;
+        private IDAOArticulo dao;
 
         public DataApiImp()
         {
             //dao = new PresupuestoDao();
         }
 
-        public List<Articulo> GetProductos()
+        public List<Articulo> GetArticulos()
         {
-            return dao.ObtenerProductos();
+            return dao.ObtenerArticulos();
         }
 
         //public bool SavePresupuesto(Presupuesto presupuesto)

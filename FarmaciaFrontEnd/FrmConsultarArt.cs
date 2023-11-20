@@ -24,7 +24,7 @@ namespace FarmaciaFrontEnd
 
         private async void btnBuscar_Click(object sender, EventArgs e)
         {
-            string url = string.Format("http://localhost:5031/articulos");
+            string url = string.Format("http://localhost:5031/articulo/GetArticulos");
             //Si se consulta por cliente, la URL incluye un parámetro adicional cliente= 
             var result = await ClientSingleton.GetInstance().GetAsync(url);
             var lst = JsonConvert.DeserializeObject<List<Articulo>>(result);

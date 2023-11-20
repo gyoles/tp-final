@@ -4,11 +4,11 @@
     "G:\\Code\\tp-final\\FarmaciaWebAPI\\FarmaciaWebAPI.csproj": {}
   },
   "projects": {
-    "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj": {
+    "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaDataAPI.csproj": {
       "restore": {
-        "projectUniqueName": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj",
-        "projectName": "FarmaciaData",
-        "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj",
+        "projectUniqueName": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaDataAPI.csproj",
+        "projectName": "FarmaciaDataAPI",
+        "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaDataAPI.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -43,8 +43,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj": {
-                "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj"
+              "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaDataAPI.csproj": {
+                "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaDataAPI.csproj"
               }
             }
           }

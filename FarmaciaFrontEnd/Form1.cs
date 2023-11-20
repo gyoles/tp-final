@@ -19,7 +19,7 @@ namespace FarmaciaFrontEnd
 
         private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmArticulos FrmAltaArt = new FrmArticulos();
+            FrmEditArticulos FrmAltaArt = new FrmEditArticulos();
             FrmAltaArt.ShowDialog();
         }
 

@@ -5,18 +5,49 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FarmaciaData.DAOs;
 
 namespace FarmaciaData.Datos
 {
     internal class HelperDB
     {
+        private static HelperDB instancia;
         private SqlConnection cnn;
-        private SqlCommand cmd;
 
         public HelperDB()
         {
             cnn = new SqlConnection(@"Data Source=DESKTOP-0VC0DG0\\SQLEXPRESS;Initial Catalog=Droguería;Integrated Security=True");
         }
+
+        public static HelperDB ObtenerInstancia()
+        {
+            if (instancia == null)
+                instancia = new HelperDB();
+            return instancia;
+        }
+
+
+        public DataTable ConsultaSQL(string spNombre, List<Parametro> values)
+        {
+            DataTable tabla = new DataTable();
+
+            cnn.Open();
+            SqlCommand cmd = new SqlCommand(spNombre, cnn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            if (values != null)
+            {
+                foreach (Parametro oParametro in values)
+                {
+                    cmd.Parameters.AddWithValue(oParametro.Clave, oParametro.Valor);
+                }
+            }
+            tabla.Load(cmd.ExecuteReader());
+            cnn.Close();
+
+            return tabla;
+        }
+
+
 
         //public bool AgregarArt(Articulo a)
         //{

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace FarmaciaData.Fachada
 {
-    public interface IDataApi
+    public interface IDataImp
     {
-        public List<Articulo> GetArticulos();
+        List<Articulo> GetArticulos();
         //public List<Presupuesto> GetPresupuestos(DateTime desde, DateTime hasta, string cliente);
 
         //public Presupuesto GetPresupuestoById(int id);

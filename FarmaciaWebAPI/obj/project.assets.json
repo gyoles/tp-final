@@ -105,13 +105,13 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "FarmaciaData/1.0.0": {
+      "FarmaciaDataAPI/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/FarmaciaData.dll": {}
+          "bin/placeholder/FarmaciaDataAPI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FarmaciaData.dll": {}
+          "bin/placeholder/FarmaciaDataAPI.dll": {}
         }
       }
     }
@@ -254,15 +254,15 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "FarmaciaData/1.0.0": {
+    "FarmaciaDataAPI/1.0.0": {
       "type": "project",
-      "path": "../FarmaciaData/FarmaciaData.csproj",
-      "msbuildProject": "../FarmaciaData/FarmaciaData.csproj"
+      "path": "../FarmaciaData/FarmaciaDataAPI.csproj",
+      "msbuildProject": "../FarmaciaData/FarmaciaDataAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FarmaciaData >= 1.0.0",
+      "FarmaciaDataAPI >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -294,8 +294,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj": {
-              "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaData.csproj"
+            "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaDataAPI.csproj": {
+              "projectPath": "G:\\Code\\tp-final\\FarmaciaData\\FarmaciaDataAPI.csproj"
             }
           }
         }
